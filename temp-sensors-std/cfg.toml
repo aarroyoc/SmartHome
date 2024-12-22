@@ -1,0 +1,4 @@
+[temp-sensors-std]
+wifi_ssid = "Centuria-Dorada"
+wifi_psk = "XXX"
+mqtt_broker_url = "mqtt://test.mosquitto.org:1883"
