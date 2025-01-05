@@ -1,0 +1,21 @@
+[package]
+name = "temp-sensor-client-ble"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bluez-async = "0.8.0"
+tokio = { version = "1.42.0", features = [
+  "macros",
+  "rt",
+  "rt-multi-thread",
+  "time",
+  "fs",
+] }
+eyre = "0.6.12"
+pretty_env_logger = "0.5.0"
+uuid = "1.11.0"
+serde = { version = "1.0.217", features = ["derive"] }
+toml = "0.8.19"
+futures = "0.3.31"
+axum = "0.8.1"
